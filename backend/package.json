@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "e-commerce-shop",
   "version": "1.0.0",
-  "description": "E-Commerce Backend",
+  "description": "The e-commerce-shop backend",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/UcheTheo/E-COMMERCE-SHOP/issues"
   },
-  "homepage": "https://github.com/UcheTheo/E-COMMERCE-SHOP#readme"
+  "homepage": "https://github.com/UcheTheo/E-COMMERCE-SHOP#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2",
+    "nodemailer": "^6.9.5"
+  }
 }
